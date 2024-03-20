@@ -1,0 +1,45 @@
+{
+  "name": "vue3-login-system",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prettier": "prettier --write ."
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
+    "@popperjs/core": "^2.11.8",
+    "axios": "^1.5.0",
+    "echarts": "^5.4.3",
+    "element-plus": "^2.3.14",
+    "event-source-polyfill": "^1.0.31",
+    "file-saver": "^2.0.5",
+    "js-cookie": "^3.0.5",
+    "lodash": "^4.17.21",
+    "node-sass": "^6.0.1",
+    "nprogress": "^0.2.0",
+    "pinia": "^2.1.6",
+    "pinia-plugin-persistedstate": "^3.2.0",
+    "sass-loader": "^13.3.2",
+    "vue-router": "^4.2.4",
+    "vue-virtual-scroll-list": "^2.3.5",
+    "vue3-smooth-scroll": "^0.8.1",
+    "vuex": "^4.1.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/compiler-sfc": "^3.3.4",
+    "less": "^4.2.0",
+    "less-loader": "^11.1.3",
+    "mockjs": "^1.1.0",
+    "typescript": "^5.2.2",
+    "unplugin-auto-import": "^0.16.6",
+    "unplugin-vue-components": "^0.25.2",
+    "vite": "^4.4.5",
+    "vue": "^3.2.36"
+  }
+}

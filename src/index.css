@@ -1,0 +1,43 @@
+/*index.scss*/
+*{
+     ::-webkit-scrollbar {
+       /* 隐藏滚轮 */
+       display:none; 
+     }
+}
+/* 为甘特图容器重写滚动条样式 */
+.gantt-chart-container {
+  &::-webkit-scrollbar { 
+      display: block !important;
+      width: 8px !important;
+  }
+
+  &::-webkit-scrollbar-thumb {
+      background: #888 !important;
+      border-radius: 4px !important;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+      background: #555 !important;
+  }
+}
+.el-table{
+  color: #000 !important;
+}
+.el-scrollbar{
+  --el-scrollbar-opacity:0.2 !important;
+  /* --el-scrollbar-hover-opacity:1 !important; */
+  --el-scrollbar-bg-color:#666 !important;
+  /* --el-scrollbar-hover-bg-color:#444 !important; */
+}
+.el-table .caret-wrapper {
+  display: none !important;
+}
+
+/* 去除鼠标悬浮效果 */
+.el-table tbody tr:hover > td {
+  background-color: unset !important;
+}
+.el-table .el-table__body tr.row-highlight {
+  background-color: rgb(18, 203, 244) !important; 
+}
